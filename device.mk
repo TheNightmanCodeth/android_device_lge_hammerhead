@@ -188,7 +188,7 @@ PRODUCT_PACKAGES += \
     camera.hammerhead \
     mm-jpeg-interface-test \
     mm-qcamera-app \
-    Snap
+    Camera2
 
 # Camera HAL interfaces
 PRODUCT_PACKAGES += \

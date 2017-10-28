@@ -1,0 +1,12 @@
+[
+  {
+    "repository":  "los-hammer/android_kernel_lge_hammerhead",
+    "target_path": "kernel/lge/hammerhead",
+    "branch":      "validus8"
+  },
+  {
+    "repository": "los-hammer/proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "branch":      "validus8"
+  }
+]
