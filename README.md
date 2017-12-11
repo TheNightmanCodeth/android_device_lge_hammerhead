@@ -3,7 +3,7 @@ Device Tree for the LG Nexus 5(hammerhead)
 Hardware Information
 ====================
 
-| Device Name     | Google Nexus 5hammerhead       |
+| Device Name     | Google Nexus 5       |
 |-----------------|-----------------------------|
 |Model            | LG-D821/820                     |
 |Codename         | hammerhead                    |
