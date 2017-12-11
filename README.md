@@ -16,5 +16,5 @@ Hardware Information
 |Display          | 1080 x 1920 IPS  |
 |Platform         |hammerhead                       |
                 
-
+hammerheadのLineage 15.0用device treeを置いておきます。
 
