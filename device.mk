@@ -46,8 +46,8 @@ PRODUCT_COPY_FILES += \
     device/lge/hammerhead/touch_dev.idc:system/usr/idc/touch_dev.idc
 
 PRODUCT_COPY_FILES += \
-    device/lge/hammerhead/audio_policy.conf:system/etc/audio_policy.conf \
-    device/lge/hammerhead/mixer_paths.xml:system/etc/mixer_paths.xml
+    device/lge/hammerhead/audio_policy.conf:system/vendor/etc/audio_policy.conf \
+    device/lge/hammerhead/mixer_paths.xml:system/vendor/etc/mixer_paths.xml
 
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
@@ -95,10 +95,10 @@ PRODUCT_COPY_FILES += \
 
 # NFC access control + feature files + configuration
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
-    frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml \
-    device/lge/hammerhead/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    device/lge/hammerhead/nfc/libnfc-brcm-20791b05.conf:system/etc/libnfc-brcm-20791b05.conf
+    frameworks/native/data/etc/android.hardware.nfc.xml:system/vendor/etc/permissions/android.hardware.nfc.xml \
+    frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/vendor/etc/permissions/android.hardware.nfc.hce.xml \
+    device/lge/hammerhead/nfc/libnfc-brcm.conf:system/vendor/etc/libnfc-brcm.conf \
+    device/lge/hammerhead/nfc/libnfc-brcm-20791b05.conf:system/vendor/etc/libnfc-brcm-20791b05.conf
 
 PRODUCT_COPY_FILES += \
     device/lge/hammerhead/thermal-engine-8974.conf:system/etc/thermal-engine-8974.conf
